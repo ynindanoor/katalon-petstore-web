@@ -31,13 +31,13 @@ All test steps are created manually. The Record Web feature is not used.
 ### 2. Data-Driven Testing (DDT)
 External test data is used to execute the login test case with different combinations of usernames and passwords.
 
-Test Data:
-| Username         |    Password     |       Expected Result         |
-| Valid username   | Valid password  | Login succeeds                |
-| Invalid username | Valid password  | Validation or login rejection |
-| Valid username   | Empty password  | Login is rejected             |
-| Empty username   | Valid password  | Login is rejected             |
-| Invalid username | Invalid password| Validation or login rejection |
+| Username | Password | Expected Result |
+|---|---|---|
+| Valid username | Valid password | Login succeeds |
+| Invalid username | Valid password | Validation or login rejection |
+| Valid username | Empty password | Login is rejected |
+| Empty username | Valid password | Login is rejected |
+| Invalid username | Invalid password | Validation or login rejection |
 
 The test data can be stored in a Excel file and connected to the test case using Katalon's Test Data Binding.
 
