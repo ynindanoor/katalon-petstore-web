@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8d3d797-0097-4593-b78d-e55f83caa389</testCaseGuid>
+   <variable>
+      <defaultValue>'P'</defaultValue>
+      <description></description>
+      <id>578aa585-374a-4a4a-a375-8e8daa591252</id>
+      <masked>false</masked>
+      <name>testType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Vaseline'</defaultValue>
+      <description></description>
+      <id>a324aef4-9e0e-4e99-a139-7b33797ebf2d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Gluta-Hya70x\r\n'</defaultValue>
+      <description></description>
+      <id>4e743b61-1f56-48e7-a700-9320e5e80bd1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'login success'</defaultValue>
+      <description></description>
+      <id>b7054bb7-a761-4ab6-bd5c-8e96a0f3f52a</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>0</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>8b013564-c6ac-4bbd-abf4-9a423d645301</testSuiteGuid>
+   <testCaseLink>
+      <guid>4b1fe71d-11d2-4924-b968-d4ca80bc0490</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'P'</defaultValue>
+         <description></description>
+         <id>578aa585-374a-4a4a-a375-8e8daa591252</id>
+         <masked>false</masked>
+         <name>testType</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>24f62728-8ce1-47f1-9b76-31d91525467d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/TD Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>24f62728-8ce1-47f1-9b76-31d91525467d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testType</value>
+         <variableId>578aa585-374a-4a4a-a375-8e8daa591252</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>24f62728-8ce1-47f1-9b76-31d91525467d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a324aef4-9e0e-4e99-a139-7b33797ebf2d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>24f62728-8ce1-47f1-9b76-31d91525467d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>4e743b61-1f56-48e7-a700-9320e5e80bd1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>24f62728-8ce1-47f1-9b76-31d91525467d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>b7054bb7-a761-4ab6-bd5c-8e96a0f3f52a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

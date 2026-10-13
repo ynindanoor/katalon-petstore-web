@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnLogin</name>
+   <tag></tag>
+   <elementGuidId>190cb87f-c5d9-4a7f-a0f6-3dc2b85a946e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;Catalog&quot;]/form/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='signon']</value>
+      <webElementGuid>2ca0d505-2552-4d52-9b38-bc1e8f2fbc39</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
