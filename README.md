@@ -13,6 +13,7 @@ This project contains web automation test cases for the login functionality of t
 - Generate an execution report after the Test Suite finishes.
 - Create test steps manually without using Record Web.
 
+## Test Scenarios
 | Test Case ID | Test Scenario | Type |
 |---|---|---|
 | TC001 | Login with valid username and password | Positive |
